@@ -1,3 +1,7 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
 body {
     font-family: 'Mandali', sans-serif;
     background-image: url("/img/tinh-khuong-1233821-unsplash.jpg");
@@ -12,12 +16,12 @@ body {
     /* Do not repeat the image */
     background-size: cover;
     /* Resize the background image to cover the entire container */
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .wrapper {
-    position: fixed; /* Sit on top of the page content */
+    position: absolute;
     width: 100%; /* Full width (cover the whole page) */
-    height: 100%; /* Full height (cover the whole page) */
+    height: 100vh; /* Full height (cover the whole page) */
     top: 0; 
     left: 0;
     right: 0;

@@ -1,50 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
     <!-- Font Awesome here -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-
     <!-- google fonts here -->
     <link href="https://fonts.googleapis.com/css?family=Mandali&display=swap" rel="stylesheet">
-
-     <!--Import Google Icon Font-->
-     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-     
-    <!-- materialize css here -->
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
     <!-- Css here -->
     <link rel="stylesheet" href="css/style.css">
     <title>Contact App</title>
 </head>
-
 <body>
     <div class="wrapper">
-        <div class="container center-align">
-            <h3>PhoneBook List</h3>
+        <div class="container ">
+            <h3 class="center-align">PhoneBook List</h3>
             <div class="input-field col s6">
-                    <i class="material-icons prefix">account_box</i>
-                    <input id="icon_prefix" type="text" class="validate" placeholder="Search your contacts here ....">
-                    <label for="icon_prefix">Search Contact</label>
-                  </div>
+                <i class="material-icons prefix">account_box</i>
+                <input id="inputContact" type="text" class="validate" placeholder="Search your contacts here ....">
+                <label for="icon_prefix">Search Contact</label>
+            </div>
+            <ul id="contactsList" class="collection with-header">
+                <li class="collection-header">
+                    <h5>A</h5>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Ali</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Ammar</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Asil</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Ahmed</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Amna</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Alina</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Aima</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Aiman</a>
+                </li>
+                <li class="collection-header">
+                    <h5>B</h5>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Bon</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Ban</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Bob</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Bella</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Bianna</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Baddar</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Bilal</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Basim</a>
+                </li>
+
+                <li class="collection-header">
+                        <h5>C</h5>
+                    </li>
+                    <li class="collection-item">
+                        <a href="#">Carim</a>
+                    </li>
+                    <li class="collection-item">
+                        <a href="#">Cardio</a>
+                    </li>
+                    <li class="collection-item">
+                        <a href="#">Casim</a>
+                    </li>
+                    <li class="collection-item">
+                        <a href="#">Can</a>
+                    </li>
+                    <li class="collection-item">
+                        <a href="#">Cella</a>
+                    </li>
+                    <li class="collection-item">
+                        <a href="#">Cairo</a>
+                    </li>
+                    <li class="collection-item">
+                        <a href="#">Cannas</a>
+                    </li>
+                    <li class="collection-item">
+                        <a href="#">Call</a>
+                    </li>
+            </ul>
         </div>
     </div>
-
-
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-
 </body>
 <!-- Compiled and minified JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
 <script src="scripts/app.js"></script>
-
 </html>
